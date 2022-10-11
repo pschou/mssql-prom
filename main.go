@@ -9,15 +9,30 @@ import (
 	_ "github.com/denisenkom/go-mssqldb"
 	// Import the Azure AD driver module (also imports the regular driver package)
 	"github.com/denisenkom/go-mssqldb/azuread"
+	"github.com/jcmturner/gokrb5/v8/client"
 	"github.com/jcmturner/gokrb5/v8/config"
 	"github.com/jcmturner/gokrb5/v8/keytab"
+	"github.com/jcmturner/gokrb5/v8/service"
 )
 
 func ConnectWithMSI() (*sql.DB, error) {
 	return sql.Open(azuread.DriverName, "sqlserver://azuresql.database.windows.net?database=yourdb&fedauth=ActiveDirectoryMSI")
+
+	cfg, err := config.Load("/path/to/config/file")
+
 	config.Load("/path/to/config/file")
+
 	keytab.Load("/path/to/file.keytab")
 	keytab.Parse(b)
+
+	cl := client.NewWithPassword("username", "REALM.COM", "password", cfg)
+	cl := client.NewWithKeytab("username", "REALM.COM", kt, cfg)
+
+	s := service.NewSettings(&kt) // kt is a keytab and optional settings can also be provided.
+	if ok, creds, err := service.VerifyAPREQ(&APReq, s); ok {
+		// Perform application specific actions
+		// creds object has details about the client identity
+	}
 }
 
 var (
