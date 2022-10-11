@@ -15,6 +15,8 @@ github.com/Azure/azure-sdk-for-go/sdk/internal/diag
 github.com/Azure/azure-sdk-for-go/sdk/internal/errorinfo
 github.com/Azure/azure-sdk-for-go/sdk/internal/log
 github.com/Azure/azure-sdk-for-go/sdk/internal/uuid
+# github.com/davecgh/go-spew v1.1.1
+github.com/davecgh/go-spew/spew
 # github.com/denisenkom/go-mssqldb v0.12.0
 ## explicit
 github.com/denisenkom/go-mssqldb
@@ -27,17 +29,89 @@ github.com/denisenkom/go-mssqldb/msdsn
 github.com/golang-sql/civil
 # github.com/golang-sql/sqlexp v0.0.0-20170517235910-f1bb20e5a188
 github.com/golang-sql/sqlexp
+# github.com/hashicorp/go-uuid v1.0.3
+## explicit
+github.com/hashicorp/go-uuid
+# github.com/jcmturner/dnsutils/v2 v2.0.0
+github.com/jcmturner/dnsutils/v2
+# github.com/jcmturner/gofork v1.7.6
+## explicit
+github.com/jcmturner/gofork/encoding/asn1
+github.com/jcmturner/gofork/x/crypto/pbkdf2
+# github.com/jcmturner/gokrb5/v8 v8.4.3
+## explicit
+github.com/jcmturner/gokrb5/v8/config
+github.com/jcmturner/gokrb5/v8/iana/etypeID
 # github.com/pkg/browser v0.0.0-20180916011732-0a3d74bf9ce4
 github.com/pkg/browser
-# golang.org/x/crypto v0.0.0-20201016220609-9e8e0b390897
+# github.com/pmezard/go-difflib v1.0.0
+github.com/pmezard/go-difflib/difflib
+# github.com/stretchr/testify v1.8.0
+## explicit
+github.com/stretchr/testify/assert
+# golang.org/x/crypto v0.0.0-20220722155217-630584e8d5aa
+## explicit
 golang.org/x/crypto/md4
+golang.org/x/crypto/pbkdf2
 golang.org/x/crypto/pkcs12
 golang.org/x/crypto/pkcs12/internal/rc2
-# golang.org/x/net v0.0.0-20210610132358-84b48f89b13b
+# golang.org/x/net v0.0.0-20220725212005-46097bf591d3
 golang.org/x/net/http/httpguts
 golang.org/x/net/idna
-# golang.org/x/text v0.3.6
+# golang.org/x/text v0.3.7
 golang.org/x/text/secure/bidirule
 golang.org/x/text/transform
 golang.org/x/text/unicode/bidi
 golang.org/x/text/unicode/norm
+# gopkg.in/jcmturner/aescts.v1 v1.0.1
+## explicit
+gopkg.in/jcmturner/aescts.v1
+# gopkg.in/jcmturner/dnsutils.v1 v1.0.1
+## explicit
+gopkg.in/jcmturner/dnsutils.v1
+# gopkg.in/jcmturner/goidentity.v3 v3.0.0
+## explicit
+gopkg.in/jcmturner/goidentity.v3
+# gopkg.in/jcmturner/gokrb5.v7 v7.5.0
+## explicit
+gopkg.in/jcmturner/gokrb5.v7/asn1tools
+gopkg.in/jcmturner/gokrb5.v7/client
+gopkg.in/jcmturner/gokrb5.v7/config
+gopkg.in/jcmturner/gokrb5.v7/credentials
+gopkg.in/jcmturner/gokrb5.v7/crypto
+gopkg.in/jcmturner/gokrb5.v7/crypto/common
+gopkg.in/jcmturner/gokrb5.v7/crypto/etype
+gopkg.in/jcmturner/gokrb5.v7/crypto/rfc3961
+gopkg.in/jcmturner/gokrb5.v7/crypto/rfc3962
+gopkg.in/jcmturner/gokrb5.v7/crypto/rfc4757
+gopkg.in/jcmturner/gokrb5.v7/crypto/rfc8009
+gopkg.in/jcmturner/gokrb5.v7/gssapi
+gopkg.in/jcmturner/gokrb5.v7/iana
+gopkg.in/jcmturner/gokrb5.v7/iana/addrtype
+gopkg.in/jcmturner/gokrb5.v7/iana/adtype
+gopkg.in/jcmturner/gokrb5.v7/iana/asnAppTag
+gopkg.in/jcmturner/gokrb5.v7/iana/chksumtype
+gopkg.in/jcmturner/gokrb5.v7/iana/errorcode
+gopkg.in/jcmturner/gokrb5.v7/iana/etypeID
+gopkg.in/jcmturner/gokrb5.v7/iana/flags
+gopkg.in/jcmturner/gokrb5.v7/iana/keyusage
+gopkg.in/jcmturner/gokrb5.v7/iana/msgtype
+gopkg.in/jcmturner/gokrb5.v7/iana/nametype
+gopkg.in/jcmturner/gokrb5.v7/iana/patype
+gopkg.in/jcmturner/gokrb5.v7/iana/trtype
+gopkg.in/jcmturner/gokrb5.v7/kadmin
+gopkg.in/jcmturner/gokrb5.v7/keytab
+gopkg.in/jcmturner/gokrb5.v7/krberror
+gopkg.in/jcmturner/gokrb5.v7/messages
+gopkg.in/jcmturner/gokrb5.v7/pac
+gopkg.in/jcmturner/gokrb5.v7/service
+gopkg.in/jcmturner/gokrb5.v7/spnego
+gopkg.in/jcmturner/gokrb5.v7/test
+gopkg.in/jcmturner/gokrb5.v7/test/testdata
+gopkg.in/jcmturner/gokrb5.v7/types
+# gopkg.in/jcmturner/rpc.v1 v1.1.0
+## explicit
+gopkg.in/jcmturner/rpc.v1/mstypes
+gopkg.in/jcmturner/rpc.v1/ndr
+# gopkg.in/yaml.v3 v3.0.1
+gopkg.in/yaml.v3
