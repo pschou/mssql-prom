@@ -7,7 +7,13 @@ import (
 	"log"
 
 	_ "github.com/denisenkom/go-mssqldb"
+	// Import the Azure AD driver module (also imports the regular driver package)
+	"github.com/denisenkom/go-mssqldb/azuread"
 )
+
+func ConnectWithMSI() (*sql.DB, error) {
+	return sql.Open(azuread.DriverName, "sqlserver://azuresql.database.windows.net?database=yourdb&fedauth=ActiveDirectoryMSI")
+}
 
 var (
 	debug         = flag.Bool("debug", false, "enable debugging")

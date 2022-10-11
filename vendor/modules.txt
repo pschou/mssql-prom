@@ -1,6 +1,24 @@
+# github.com/Azure/azure-sdk-for-go/sdk/azcore v0.19.0
+github.com/Azure/azure-sdk-for-go/sdk/azcore
+github.com/Azure/azure-sdk-for-go/sdk/azcore/internal/pipeline
+github.com/Azure/azure-sdk-for-go/sdk/azcore/internal/pollers
+github.com/Azure/azure-sdk-for-go/sdk/azcore/internal/pollers/loc
+github.com/Azure/azure-sdk-for-go/sdk/azcore/internal/pollers/op
+github.com/Azure/azure-sdk-for-go/sdk/azcore/internal/shared
+github.com/Azure/azure-sdk-for-go/sdk/azcore/policy
+github.com/Azure/azure-sdk-for-go/sdk/azcore/runtime
+github.com/Azure/azure-sdk-for-go/sdk/azcore/streaming
+# github.com/Azure/azure-sdk-for-go/sdk/azidentity v0.11.0
+github.com/Azure/azure-sdk-for-go/sdk/azidentity
+# github.com/Azure/azure-sdk-for-go/sdk/internal v0.7.0
+github.com/Azure/azure-sdk-for-go/sdk/internal/diag
+github.com/Azure/azure-sdk-for-go/sdk/internal/errorinfo
+github.com/Azure/azure-sdk-for-go/sdk/internal/log
+github.com/Azure/azure-sdk-for-go/sdk/internal/uuid
 # github.com/denisenkom/go-mssqldb v0.12.0
 ## explicit
 github.com/denisenkom/go-mssqldb
+github.com/denisenkom/go-mssqldb/azuread
 github.com/denisenkom/go-mssqldb/internal/cp
 github.com/denisenkom/go-mssqldb/internal/decimal
 github.com/denisenkom/go-mssqldb/internal/querytext
@@ -9,5 +27,17 @@ github.com/denisenkom/go-mssqldb/msdsn
 github.com/golang-sql/civil
 # github.com/golang-sql/sqlexp v0.0.0-20170517235910-f1bb20e5a188
 github.com/golang-sql/sqlexp
+# github.com/pkg/browser v0.0.0-20180916011732-0a3d74bf9ce4
+github.com/pkg/browser
 # golang.org/x/crypto v0.0.0-20201016220609-9e8e0b390897
 golang.org/x/crypto/md4
+golang.org/x/crypto/pkcs12
+golang.org/x/crypto/pkcs12/internal/rc2
+# golang.org/x/net v0.0.0-20210610132358-84b48f89b13b
+golang.org/x/net/http/httpguts
+golang.org/x/net/idna
+# golang.org/x/text v0.3.6
+golang.org/x/text/secure/bidirule
+golang.org/x/text/transform
+golang.org/x/text/unicode/bidi
+golang.org/x/text/unicode/norm
