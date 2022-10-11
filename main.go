@@ -10,6 +10,7 @@ import (
 	// Import the Azure AD driver module (also imports the regular driver package)
 	"github.com/denisenkom/go-mssqldb/azuread"
 	"github.com/jcmturner/gokrb5/v8/config"
+	"github.com/jcmturner/gokrb5/v8/keytab"
 )
 
 func ConnectWithMSI() (*sql.DB, error) {
