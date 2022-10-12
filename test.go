@@ -12,6 +12,11 @@ import (
 )
 
 func test() {
+	o
+	// authenticator=krb5;server=DatabaseServerName;database=DBName;krb5-params.....
+	// authenticator=krb5;server=DatabaseServerName;database=DBName;user id=MyUserName;krb5-realm=domain.com;krb5-configfile=/etc/krb5.conf;krb5-keytabfile=~/MyUserName.keytab
+	// authenticator=krb5;server=DatabaseServerName;database=DBName;user id=MyUserName;password=MyPassword;krb5-realm=comani.com;krb5-configfile=/etc/krb5.conf;
+
 	var (
 		connectionString string
 	)
