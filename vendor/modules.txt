@@ -15,6 +15,9 @@ github.com/Azure/azure-sdk-for-go/sdk/internal/diag
 github.com/Azure/azure-sdk-for-go/sdk/internal/errorinfo
 github.com/Azure/azure-sdk-for-go/sdk/internal/log
 github.com/Azure/azure-sdk-for-go/sdk/internal/uuid
+# github.com/bet365/go-mssqldb-auth-krb5 v0.0.0-20220816165549-b8d5174b1ce8
+## explicit
+github.com/bet365/go-mssqldb-auth-krb5
 # github.com/davecgh/go-spew v1.1.1
 github.com/davecgh/go-spew/spew
 # github.com/denisenkom/go-mssqldb v0.12.0
@@ -55,6 +58,7 @@ github.com/jcmturner/gokrb5/v8/crypto/rfc3961
 github.com/jcmturner/gokrb5/v8/crypto/rfc3962
 github.com/jcmturner/gokrb5/v8/crypto/rfc4757
 github.com/jcmturner/gokrb5/v8/crypto/rfc8009
+github.com/jcmturner/gokrb5/v8/gssapi
 github.com/jcmturner/gokrb5/v8/iana
 github.com/jcmturner/gokrb5/v8/iana/addrtype
 github.com/jcmturner/gokrb5/v8/iana/adtype
@@ -73,10 +77,21 @@ github.com/jcmturner/gokrb5/v8/krberror
 github.com/jcmturner/gokrb5/v8/messages
 github.com/jcmturner/gokrb5/v8/pac
 github.com/jcmturner/gokrb5/v8/service
+github.com/jcmturner/gokrb5/v8/spnego
 github.com/jcmturner/gokrb5/v8/types
 # github.com/jcmturner/rpc/v2 v2.0.3
 github.com/jcmturner/rpc/v2/mstypes
 github.com/jcmturner/rpc/v2/ndr
+# github.com/microsoft/go-mssqldb v0.0.0-00010101000000-000000000000 => github.com/bet365/go-mssqldb v0.12.1-0.20220816164333-86ae3f6abb64
+## explicit
+github.com/microsoft/go-mssqldb
+github.com/microsoft/go-mssqldb/integratedauth
+github.com/microsoft/go-mssqldb/integratedauth/ntlm
+github.com/microsoft/go-mssqldb/integratedauth/winsspi
+github.com/microsoft/go-mssqldb/internal/cp
+github.com/microsoft/go-mssqldb/internal/decimal
+github.com/microsoft/go-mssqldb/internal/querytext
+github.com/microsoft/go-mssqldb/msdsn
 # github.com/pkg/browser v0.0.0-20180916011732-0a3d74bf9ce4
 github.com/pkg/browser
 # github.com/pmezard/go-difflib v1.0.0
@@ -151,3 +166,4 @@ gopkg.in/jcmturner/rpc.v1/mstypes
 gopkg.in/jcmturner/rpc.v1/ndr
 # gopkg.in/yaml.v3 v3.0.1
 gopkg.in/yaml.v3
+# github.com/microsoft/go-mssqldb => github.com/bet365/go-mssqldb v0.12.1-0.20220816164333-86ae3f6abb64
